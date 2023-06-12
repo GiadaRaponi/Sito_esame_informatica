@@ -1,0 +1,92 @@
+body {
+    font-family : 'Roboto', sans-serif;
+    background-image: url('../img/background2.avif');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+}
+.centered-text {
+    text-align: center;
+}
+nav ul li {
+    text-align: left;
+    letter-spacing: 5 px; 
+    word-spacing: 10 px;
+    font-size: 20 px;
+    display: inline-block;
+}
+ul {
+    padding-bottom: 10px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+#image {
+    height: 280px; 
+    width: auto;
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+#image1 {
+    height: auto;
+    width: 280px;
+}
+#image2 {
+    height: 15px;
+    width: auto;
+}
+#image3 {
+    height:700px;
+    width: auto;
+}
+header {
+    background-color:#93CCEA ;
+    color: #fff;
+    padding: 5% 5% 0 5%;
+}
+section {
+    padding: 0 5%;
+}
+section>p, section>h2, section>h3, section>h4 { /* Significa che la proprietà si applica solo all'elemento p (anche h2 h3 h4) che si trova dentro all'elemento section*/
+    padding:0 10%;
+}
+.paddingtopbottom {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.whitelink {
+    color: #fff;
+    padding: 10px 10px 0px 10px;
+    text-decoration: none;
+}
+.whitelink:hover { /*Significa che si applica solo quando il mouse si trova sopra all'elemento*/
+    text-decoration: underline;
+}
+.whitelink.active {
+    color: #93CCEA;
+    background-color: #fff;
+    border-radius: 3px 3px 0px 0px;
+    padding: 10px 10px 10px 10px;
+}
+.right {
+    float: right;
+}
+.table {
+    border-collapse: collapse;
+}
+.table td, .table th {
+    border: none;
+    padding: 8px;
+}
+footer {
+    background-color:#93CCEA; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.container1 {
+    max-width: 960px; 
+    margin: 0 auto;
+}
