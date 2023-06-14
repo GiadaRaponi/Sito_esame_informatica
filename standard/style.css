@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: #799eb2;
+    color: #FFFFFF;
+    font-family : 'Roboto', sans-serif;
+}
+header {
+    color: #fff;
+    padding: 5rem 5rem 0.5rem 5rem;
+    border-bottom: 1px solid #fff;
+}
+h1  {
+    display: inline;
+}
+nav {
+    display: inline-block;
+}
+nav ul li {
+    display: inline-block;
+}
+ul {
+    padding-bottom: 0.5rem;
+}
+.link {
+    color: #fff;
+    padding: 1rem 1rem 0px 1rem;
+    text-decoration: none;
+}
+.link:hover { /*Significa che si applica solo quando il mouse si trova sopra all'elemento*/
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+.link.active {
+    color: #155B84;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 0.8rem 1.6rem;
+}
+section {
+    line-height: 1.3rem;
+    padding: 5rem 7rem;
+}
+.large {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.centered-text {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+#image {
+    height: 280px; 
+    width: auto;
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+#image1 {
+    height: auto;
+    width: 280px;
+}
+#image2 {
+    height: 15px;
+    width: auto;
+}
+#image3 {
+    height:700px;
+    width: auto;
+}
+section>p, section>h2, section>h3, section>h4 { /* Significa che la proprietà si applica solo all'elemento p (anche h2 h3 h4) che si trova dentro all'elemento section*/
+    padding:0 10%;
+}
+.table {
+    border-collapse: collapse;
+}
+.table td, .table th {
+    border: none;
+    padding: 8px;
+}
+footer {
+    border-top: 1px solid #fff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.container1 {
+    max-width: 960px; 
+    margin: 0 auto;
+}
+a {
+    color: #155B84;
+}

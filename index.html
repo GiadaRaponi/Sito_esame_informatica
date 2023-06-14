@@ -1,28 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
     <head>
-        <title>I DISLESSICI DELLA MUSICA</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-        <link href="fonts/OpenDyslexic-Regular.otf">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y4CFZHDQTC"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'G-Y4CFZHDQTC');
+		</script>
+		<title>Note e Dislessia</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="style.css">
+		<link href="fonts/OpenDyslexic-Regular.otf">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     </head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y4CFZHDQTC"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-Y4CFZHDQTC');
-    </script>
     <body>
-      <selection>
-        <h2 class="centered-text">I DISLESSICI DELLA MUSICA</h2>
-        <p class="centered-text">Quale font vuoi utilizzare?</p>
-        <div class="button-container">
-          <button class="choice-button" id="button1" onclick="location.href='progettod/'"><span class="font-custom">Font per dislessici</span></button>
-          <buttom class="choice-button" id="button2" onclick="location.href='progettor/'">Font normale</buttom>
-        </div>
-     </selection>
+		<section>
+			<h1>Note e Dislessia</h1>
+			<p>
+				Questo sito è proposto in due varianti: una utilizza un carattere standard, mentre l'altra è stata scritta con il font OpenDyslexic per migliorare la leggibilità dei testi e ridurre alcuni errori di lettura provocati dalla dislessia.
+			</p>
+			<p>Quale font vuoi utilizzare?</p>
+			<div class="button-container">
+				<button class="choice-button" onclick="location.href='dys/'"><span class="font-dys">Font per dislessici</span></button>
+				<button class="choice-button" onclick="location.href='standard/'">Font standard</button>
+			</div>
+		</section>
     </body>
 </html>
