@@ -1,8 +1,14 @@
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('../fonts/OpenDyslexic-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     margin: 0;
     background-color: #799eb2;
     color: #FFFFFF;
-    font-family : 'Roboto', sans-serif;
+    font-family : 'OpenDyslexic', sans-serif;
 }
 header {
     color: #fff;
